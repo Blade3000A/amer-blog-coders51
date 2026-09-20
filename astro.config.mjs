@@ -8,6 +8,11 @@ import { defineConfig, fontProviders } from 'astro/config';
 export default defineConfig({
 	site: 'https://example.com',
 	integrations: [mdx(), sitemap()],
+	// The CV post is the only page; send the root there.
+	redirects: {
+		'/': '/blog/amer-abu-joudeh/',
+		'/blog': '/blog/amer-abu-joudeh/',
+	},
 	fonts: [
 		{
 			provider: fontProviders.local(),
