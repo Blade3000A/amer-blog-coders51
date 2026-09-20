@@ -91,11 +91,14 @@ Implementation and Algorithm Evaluation*
 
 ## Languages
 
-| Language | Listening | Reading | Spoken production | Spoken interaction | Writing |
-| --- | --- | --- | --- | --- | --- |
-| Arabic | Native | Native | Native | Native | Native |
-| English | C1 | C1 | C1 | C1 | C1 |
-| Italian | C1 | C1 | C1 | C1 | C1 |
+| Language | Level |
+| --- | --- |
+| Arabic | Mother tongue |
+| English | C1 |
+| Italian | C1 |
+
+C1 across all five Europass competences: listening, reading, spoken
+production, spoken interaction and writing.
 
 ## Publications
 

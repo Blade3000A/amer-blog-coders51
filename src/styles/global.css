@@ -86,6 +86,21 @@ input {
 table {
 	width: 100%;
 }
+/* Keep wide tables reachable on narrow screens rather than clipped.
+   Cells still wrap, so only genuinely wide tables scroll. */
+.prose table {
+	display: block;
+	overflow-x: auto;
+	width: 100%;
+}
+.prose table th {
+	text-align: left;
+	vertical-align: top;
+	padding-right: 1em;
+}
+.prose table td {
+	vertical-align: top;
+}
 img {
 	max-width: 100%;
 	height: auto;
