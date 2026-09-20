@@ -6,12 +6,15 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://blade3000a.github.io',
+	// Project page: the site is served from a subpath, not the domain root.
+	base: '/amer-blog-coders51/',
 	integrations: [mdx(), sitemap()],
 	// The CV post is the only page; send the root there.
+	// Destinations must carry the base; Astro does not add it to these values.
 	redirects: {
-		'/': '/blog/amer-abu-joudeh/',
-		'/blog': '/blog/amer-abu-joudeh/',
+		'/': '/amer-blog-coders51/blog/amer-abu-joudeh/',
+		'/blog': '/amer-blog-coders51/blog/amer-abu-joudeh/',
 	},
 	fonts: [
 		{

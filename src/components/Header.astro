@@ -4,7 +4,7 @@ import { CV_PATH, SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
-		<h2><a href={CV_PATH}>{SITE_TITLE}</a></h2>
+		<h2><a href={`${import.meta.env.BASE_URL}${CV_PATH}`}>{SITE_TITLE}</a></h2>
 		<div class="social-links">
 			<a href="mailto:am_er1991@yahoo.com">
 				<span class="sr-only">Email Amer Abu-Joudeh</span>

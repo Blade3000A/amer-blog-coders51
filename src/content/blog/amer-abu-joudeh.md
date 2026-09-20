@@ -11,7 +11,7 @@ standards-compliant systems (OAuth2, automated migrations, automated deployments
 MSc and BSc in Telecommunication Engineering. Fluent in English and Italian (C1);
 native Arabic speaker.
 
-**Bologna, Italy** · [am_er1991@yahoo.com](mailto:am_er1991@yahoo.com) · (+39) 389 647 1186 · [github.com/Blade3000A](https://github.com/Blade3000A/)
+**Bologna, Italy** · [am_er1991@yahoo.com](mailto:am_er1991@yahoo.com) · [github.com/Blade3000A](https://github.com/Blade3000A/)
 
 ## Work experience
 

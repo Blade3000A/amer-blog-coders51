@@ -4,4 +4,5 @@
 export const SITE_TITLE = 'Amer Abu-Joudeh';
 export const SITE_DESCRIPTION =
 	'Software Developer with 5+ years building backend systems, distributed authentication and web platforms. Based in Bologna, Italy.';
-export const CV_PATH = '/blog/amer-abu-joudeh/';
+// Base-relative: prefix with import.meta.env.BASE_URL when linking.
+export const CV_PATH = 'blog/amer-abu-joudeh/';
